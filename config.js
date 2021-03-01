@@ -1,3 +1,5 @@
+const lastUpdated = "2021.3.1";
+
 const profile = {
   name: "엄일경",
   summary:
@@ -61,4 +63,4 @@ const educations = [
   },
 ];
 
-export { profile, experiences, educations };
+export { profile, experiences, educations, lastUpdated };

@@ -4,12 +4,12 @@ import Education from "../components/Educations";
 
 import styles from "../styles.module.css";
 
-import { profile, experiences, educations } from "../config";
+import { profile, experiences, educations, lastUpdated } from "../config";
 
 export default function Resume() {
   return (
     <article className={styles.container}>
-      <Header profile={profile} updated="2021.3.1" />
+      <Header profile={profile} updated={lastUpdated} />
       <Experience experiences={experiences} />
       <Education educations={educations} />
     </article>
