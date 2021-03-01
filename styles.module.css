@@ -12,8 +12,13 @@
   padding-left: 0.5rem;
   padding-bottom: 0;
   line-height: 1.05;
-  margin: 2rem 0 1.5rem;
+  margin: 2rem 0 1.8rem;
   font-size: 2.5rem;
+}
+
+.heading2 {
+  line-height: 1.2;
+  margin-top: 3rem;
 }
 
 sub.updated {
@@ -37,4 +42,5 @@ td.default {
 td.default:first-child {
   text-align: right;
   font-weight: bolder;
+  width: 20%;
 }
