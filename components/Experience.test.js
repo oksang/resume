@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import Experiences from "./Experiences";
+import Experiences from "./Experience";
 
 const list = [
   {

@@ -1,8 +1,8 @@
 import styles from "../styles.module.css";
 
 import Header from "../components/Header";
-
-import Experiences from "../components/Experiences";
+import Experience from "../components/Experience";
+import Education from "../components/Educations";
 
 const expList = [
   {
@@ -49,24 +49,28 @@ const expList = [
   },
 ];
 
+const eduList = [
+  {
+    title: "코드숨",
+    duration: "20년 6월 ~ 20년 9월",
+    summary: "소프트웨어 개발의 지혜 - 리액트편",
+  },
+];
+
 export default function Resume() {
   return (
     <article className={styles.container}>
       <Header
         name="엄일경"
-        summary="스타트업 근무 경험이 있는 3년차 웹개발자. 2년간 SPA와 API 개발을 경험한 뒤, 업무 프로세스 개선을 목표로 매니징 업무를 담당했습니다. 지금은 lighthouse를 이용한 최적화, 바람직한 마크업과 스타일링 기법, 엣지 케이스와 코너 케이스를 고려한 테스트 작성에 관심을 두고 있습니다."
+        summary="스타트업 근무 경험이 있는 3년차 웹개발자. 2년간 SPA와 API 개발을 경험한 뒤, 업무 프로세스 개선을 목표로 매니징 업무를 담당했습니다. 지금은 lighthouse를 이용한 최적화, 바람직한 마크업과 스타일링 기법, 엣지 케이스와 코너 케이스를 고려한 테스트 작성에 흥미가 있습니다."
         github="https://github.com/oksang"
         blog="https://oksang.dev"
         mail="aumilkyeong@gmail.com"
         place="경기도 성남시"
         updated="2021.2.25"
       />
-      <Experiences expList={expList} />
-      <section>
-        <h1>Education</h1>
-        <h2>Codesoom</h2>
-        <p>20.06 ~ 20.09 소프트웨어 개발의 지혜 리액트편</p>
-      </section>
+      <Experience expList={expList} />
+      <Education eduList={eduList} />
     </article>
   );
 }

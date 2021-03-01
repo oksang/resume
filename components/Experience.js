@@ -32,7 +32,7 @@ export default function Experiences({ expList }) {
             </table>
             {projects.map((project) => (
               <React.Fragment key={project.name}>
-                <h3>{project.name}</h3>
+                <h3 className={styles.heading3}>{project.name}</h3>
                 <ul>
                   <li>{project.summary}</li>
                   <li>{project.duration}</li>

@@ -7,7 +7,7 @@ describe("Resume", () => {
     const { container } = render(<Resume />);
 
     expect(container).toHaveTextContent("엄일경");
-    expect(container).toHaveTextContent("Marketit");
-    expect(container).toHaveTextContent("Codesoom");
+    expect(container).toHaveTextContent("Experience");
+    expect(container).toHaveTextContent("Education");
   });
 });

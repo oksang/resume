@@ -15,7 +15,7 @@ export default function Header({
     <section>
       <h1 className={styles.heading1}>{name}</h1>
       <sub className={styles.updated}>최종 수정일: {updated}</sub>
-      <p>{summary}</p>
+      <p className={styles.default}>{summary}</p>
       <table className={styles.default}>
         <tbody>
           <tr>
