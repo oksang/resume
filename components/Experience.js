@@ -2,11 +2,11 @@ import React from "react";
 
 import styles from "../styles.module.css";
 
-export default function Experiences({ expList }) {
+export default function Experiences({ experiences }) {
   return (
     <section>
       <h1 className={styles.heading1}>Experience</h1>
-      {expList.map((exp) => {
+      {experiences.map((exp) => {
         const { companyName, duration, job, projects } = exp;
 
         return (

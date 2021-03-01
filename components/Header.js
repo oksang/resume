@@ -1,15 +1,8 @@
 import styles from "../styles.module.css";
 
-export default function Header({
-  name,
-  summary,
-  github,
-  blog,
-  mail,
-  place,
-  updated,
-}) {
-  const mailToMe = `mailto:{mail}`;
+export default function Header({ profile, updated }) {
+  const { name, summary, github, blog, mail, place } = profile;
+  const mailToMe = `mailto:${mail}`;
 
   return (
     <section>

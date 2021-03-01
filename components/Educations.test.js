@@ -17,7 +17,7 @@ const list = [
 
 describe("Educations", () => {
   it("contains formal task information", () => {
-    const { container } = render(<Educations eduList={list} />);
+    const { container } = render(<Educations educations={list} />);
 
     expect(container).toHaveTextContent("테스트1");
     expect(container).toHaveTextContent("테스트 교육1.");

@@ -2,11 +2,11 @@ import React from "react";
 
 import styles from "../styles.module.css";
 
-export default function Education({ eduList }) {
+export default function Education({ educations }) {
   return (
     <section>
       <h1 className={styles.heading1}>Education</h1>
-      {eduList.map((education) => {
+      {educations.map((education) => {
         const { title, duration, summary } = education;
 
         return (
