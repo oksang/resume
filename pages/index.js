@@ -9,7 +9,7 @@ import { profile, experiences, educations } from "../config";
 export default function Resume() {
   return (
     <article className={styles.container}>
-      <Header profile={profile} updated="2021.2.25" />
+      <Header profile={profile} updated="2021.3.1" />
       <Experience experiences={experiences} />
       <Education educations={educations} />
     </article>
