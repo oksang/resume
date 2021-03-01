@@ -1,40 +1,19 @@
+import styles from "../styles.module.css";
+
+import Header from "../components/Header";
+
 export default function Resume() {
   return (
-    <article>
-      <section>
-        <h1>엄일경</h1>
-        <sub>Last updated: 2021.02.25</sub>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <strong>Github</strong>
-              </td>
-              <td>
-                <a href="https://github.com/oksang">
-                  https://github.com/oksang
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Blog</strong>
-              </td>
-              <td>
-                <a href="https://github.com/oksang">https://oksang.dev</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Mail</strong>
-              </td>
-              <td>
-                <a href="mailto:aumilkyeong@gmail.com">aumilkyeong@gmail.com</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+    <article className={styles.container}>
+      <Header
+        name="엄일경"
+        summary="스타트업 근무 경험이 있는 3년차 웹개발자. 2년간 SPA와 API 개발을 경험하고 업무 프로세스 개선을 목표로 매니징 업무를 담당했습니다. 지금은 lighthouse를 이용한 최적화와 바람직한 마크업, 스타일링 기법에 관심을 두고 있습니다."
+        github="https://github.com/oksang"
+        blog="https://oksang.dev"
+        mail="aumilkyeong@gmail.com"
+        place="경기도 성남시"
+        updated="2021.02.25"
+      />
       <section>
         <h1>Experience</h1>
         <h2>Marketit</h2>

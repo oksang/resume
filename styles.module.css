@@ -1,10 +1,40 @@
-.hello {
-  font: 15px Helvetica, Arial, sans-serif;
-  background: #eee;
-  padding: 100px;
-  text-align: center;
-  transition: 100ms ease-in background;
+.container {
+  font-family: Noto Sans KR, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  color: hsla(0, 0%, 0%, 0.8);
+  width: 50%;
+  margin: auto;
 }
-.hello:hover {
-  background: #ccc;
+
+.heading1 {
+  border-left: 1rem solid #0f6ae5;
+  padding-left: 0.5rem;
+  padding-bottom: 0;
+  line-height: 1.05;
+  margin: 2rem 0 1.5rem;
+  font-size: 2.5rem;
+}
+
+sub.updated {
+  display: block;
+  text-align: right;
+}
+
+table.default {
+  width: 100%;
+  line-height: 2.5;
+  border-color: grey;
+  border-collapse: collapse;
+}
+
+td.default {
+  border-top: 1px solid hsla(0, 0%, 0%, 0.12);
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  padding: 0 1.2rem;
+}
+
+td.default:first-child {
+  text-align: right;
+  font-weight: bolder;
 }
