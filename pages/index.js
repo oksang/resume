@@ -12,6 +12,11 @@ export default function Resume() {
       <Header profile={profile} updated={lastUpdated} />
       <Experience experiences={experiences} />
       <Education educations={educations} />
+      <footer className={styles.default}>
+        <p>
+          <small>감사합니다.</small>
+        </p>
+      </footer>
     </article>
   );
 }

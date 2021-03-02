@@ -17,6 +17,24 @@ const experiences = [
     job: "웹개발자, 매니저",
     projects: [
       {
+        name: "개발실 프로젝트 관리",
+        summary: "사내 협업 프로세스 개선",
+        duration: "19년 9월 ~ 20년 3월",
+        skills: ["notion", "slack", "jira", "confluence"],
+        descriptions: [
+          "사내 노션 도입 및 교육 세미나 진행",
+          "커뮤니케이션 담당",
+          "일정 조율",
+        ],
+      },
+      {
+        name: "M.Shop",
+        summary: "인플루언서 공동구매 서비스",
+        duration: "18년 9월 ~ 19년 9월",
+        skills: ["vue.js", "ES6", "Bootstrap"],
+        descriptions: ["vue.js, ES5, Bootstrap을 활용한 UI 개발"],
+      },
+      {
         name: "Marketit AD",
         summary: "인플루언서 마케팅 광고주 플랫폼",
         duration: "16년 10월 ~ 19년 9월",
@@ -31,24 +49,6 @@ const experiences = [
         descriptions: [
           "php를 활용한 기능 개발 - 서드파티 서비스 통합(결제, 배송추적, sms), CRUD",
           "mysql 쿼리 최적화 및 인덱싱",
-        ],
-      },
-      {
-        name: "M.Shop",
-        summary: "인플루언서 공동구매 서비스",
-        duration: "18년 9월 ~ 19년 9월",
-        skills: ["vue.js", "ES6", "Bootstrap"],
-        descriptions: ["vue.js, ES5, Bootstrap을 활용한 UI 개발"],
-      },
-      {
-        name: "개발실 프로젝트 관리",
-        summary: "사내 협업 프로세스 개선",
-        duration: "19년 9월 ~ 20년 3월",
-        skills: ["notion", "slack", "jira", "confluence"],
-        descriptions: [
-          "사내 노션 도입 및 교육 세미나 진행",
-          "커뮤니케이션 담당",
-          "일정 조율",
         ],
       },
     ],

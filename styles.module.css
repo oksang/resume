@@ -55,3 +55,10 @@ td.default:first-child {
 p.default {
   line-height: 1.6;
 }
+
+footer.default {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
