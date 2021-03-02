@@ -17,7 +17,7 @@ export default function Education({ educations }) {
             </p>
             <ul>
               {descriptions.map((item) => (
-                <li>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </React.Fragment>
