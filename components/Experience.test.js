@@ -13,14 +13,18 @@ const list = [
         summary: "테스트 프로젝트다.",
         duration: "프로젝트 기간",
         skills: ["스킬1", "스킬2"],
-        descriptions: ["설명1", "설명2"],
+        challenges: [],
+        roles: [],
+        outcomes: [],
       },
       {
         name: "테스트 프로젝트2",
         summary: "테스트 프로젝트다.",
         duration: "프로젝트 기간",
         skills: ["스킬1", "스킬2"],
-        descriptions: ["설명1", "설명2"],
+        challenges: [],
+        roles: [],
+        outcomes: [],
       },
     ],
   },
@@ -35,7 +39,5 @@ describe("Experiences", () => {
     expect(container).toHaveTextContent("프로젝트 기간");
     expect(container).not.toHaveTextContent("스킬1");
     expect(container).not.toHaveTextContent("스킬2");
-    expect(container).toHaveTextContent("설명1");
-    expect(container).toHaveTextContent("설명2");
   });
 });

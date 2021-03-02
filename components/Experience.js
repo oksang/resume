@@ -36,13 +36,33 @@ export default function Experiences({ experiences }) {
             </table>
             {projects.map((project) => (
               <React.Fragment key={project.name}>
-                <h3 className={styles.heading3}>{project.name}</h3>
+                <h3 className={styles.heading3}>
+                  {project.name}
+                  <small className={styles.default}>
+                    {" "}
+                    ({project.duration})
+                  </small>
+                </h3>
                 <p className={styles.indent}>{project.summary}</p>
-                <ul>
-                  <li>{project.duration}</li>
-                  {project.descriptions.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
+                <ul className={styles.default}>
+                  <li>문제</li>
+                  <ul className={styles.default}>
+                    {project.challenges.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                  <li>역할</li>
+                  <ul className={styles.default}>
+                    {project.roles.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                  <li>결과</li>
+                  <ul className={styles.default}>
+                    {project.outcomes.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
                 </ul>
               </React.Fragment>
             ))}

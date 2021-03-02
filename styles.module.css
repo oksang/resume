@@ -22,6 +22,7 @@
   letter-spacing: -1px;
   margin-top: 1.6rem;
   margin-bottom: 0.8rem;
+  font-style: oblique;
 }
 
 sub.updated {
@@ -56,6 +57,9 @@ p.default {
 p.indent {
   text-indent: 1rem;
 }
+small.default {
+  font-weight: 500;
+}
 
 footer.default {
   text-align: center;
@@ -74,4 +78,8 @@ footer.default {
   font-size: 0.75rem;
   line-height: 1.25rem;
   margin-right: 0.2rem;
+}
+
+ul.default {
+  margin: 1rem;
 }

@@ -7,7 +7,7 @@ export default function Education({ educations }) {
     <section>
       <h1 className={styles.heading1}>Education</h1>
       {educations.map((education) => {
-        const { title, duration, summary, descriptions } = education;
+        const { title, duration, summary, topics } = education;
 
         return (
           <React.Fragment key={title}>
@@ -16,7 +16,7 @@ export default function Education({ educations }) {
               {duration}, {summary}
             </p>
             <ul>
-              {descriptions.map((item) => (
+              {topics.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
