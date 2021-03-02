@@ -1,10 +1,85 @@
-.hello {
-  font: 15px Helvetica, Arial, sans-serif;
-  background: #eee;
-  padding: 100px;
-  text-align: center;
-  transition: 100ms ease-in background;
+.container {
+  width: 210mm;
+  margin: auto;
+  float: none;
 }
-.hello:hover {
-  background: #ccc;
+
+.heading1 {
+  font-size: 24pt;
+  border-left: 1rem solid #009688;
+  padding-left: 0.5rem;
+  padding-bottom: 0;
+  margin: 2.2rem 0 1.8rem;
+}
+
+.heading2 {
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+
+.heading3 {
+  font-size: 1.25em;
+  letter-spacing: -1px;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+  font-style: oblique;
+}
+
+sub.updated {
+  display: block;
+  text-align: right;
+  font-style: italic;
+}
+
+table.default {
+  width: 100%;
+  line-height: 2.5;
+  border-color: grey;
+  border-collapse: collapse;
+}
+
+td.default {
+  border-top: 1px solid hsla(0, 0%, 0%, 0.12);
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  padding: 0 1.2rem;
+}
+
+td.default:first-child {
+  text-align: right;
+  font-weight: bolder;
+  width: 20%;
+}
+
+p.default {
+  line-height: 1.6;
+}
+
+p.indent {
+  text-indent: 1rem;
+}
+small.default {
+  font-weight: 500;
+}
+
+footer.default {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.tag {
+  display: inline-block;
+  border: 0.125rem solid #009688;
+  border-radius: 6.25rem;
+  padding: 0.25rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  margin-right: 0.2rem;
+}
+
+ul.default {
+  margin: 1rem;
 }

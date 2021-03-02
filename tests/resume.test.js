@@ -3,9 +3,11 @@ import { render } from "@testing-library/react";
 import Resume from "../pages/index";
 
 describe("Resume", () => {
-  it("renders without crash", () => {
+  it("contains header, experience, education content", () => {
     const { container } = render(<Resume />);
 
-    expect(container).toHaveTextContent("Hello World");
+    expect(container).toHaveTextContent("엄일경");
+    expect(container).toHaveTextContent("Experience");
+    expect(container).toHaveTextContent("Education");
   });
 });
