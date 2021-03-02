@@ -62,3 +62,15 @@ footer.default {
   margin-bottom: 2rem;
   font-style: italic;
 }
+
+.tag {
+  display: inline-block;
+  border: 0.125rem solid #009688;
+  border-radius: 6.25rem;
+  padding: 0.25rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  margin-right: 0.2rem;
+}

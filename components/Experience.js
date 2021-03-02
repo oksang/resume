@@ -25,7 +25,9 @@ export default function Experiences({ experiences }) {
                 <tr>
                   <td className={styles.default}>프로젝트</td>
                   <td className={styles.default}>
-                    {projects.map((project) => project.name).toString()}
+                    {projects.map((project) => (
+                      <span className={styles.tag}>{project.name}</span>
+                    ))}
                   </td>
                 </tr>
               </tbody>
