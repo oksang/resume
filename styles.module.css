@@ -56,6 +56,10 @@ p.default {
   line-height: 1.6;
 }
 
+p.indent {
+  text-indent: 1rem;
+}
+
 footer.default {
   text-align: center;
   margin-top: 3rem;

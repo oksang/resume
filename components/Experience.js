@@ -26,7 +26,9 @@ export default function Experiences({ experiences }) {
                   <td className={styles.default}>프로젝트</td>
                   <td className={styles.default}>
                     {projects.map((project) => (
-                      <span className={styles.tag}>{project.name}</span>
+                      <span key={project.name} className={styles.tag}>
+                        {project.name}
+                      </span>
                     ))}
                   </td>
                 </tr>
@@ -35,8 +37,8 @@ export default function Experiences({ experiences }) {
             {projects.map((project) => (
               <React.Fragment key={project.name}>
                 <h3 className={styles.heading3}>{project.name}</h3>
+                <p className={styles.indent}>{project.summary}</p>
                 <ul>
-                  <li>{project.summary}</li>
                   <li>{project.duration}</li>
                   {project.descriptions.map((item) => (
                     <li key={item}>{item}</li>
