@@ -1,5 +1,7 @@
 const lastUpdated = "2021.3.2";
 
+const pageTitle = "엄일경";
+
 const profile = {
   name: "엄일경",
   summary:
@@ -105,4 +107,4 @@ const educations = [
   },
 ];
 
-export { profile, experiences, educations, lastUpdated };
+export { pageTitle, profile, experiences, educations, lastUpdated };
