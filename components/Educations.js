@@ -12,9 +12,10 @@ export default function Education({ educations }) {
         return (
           <React.Fragment key={title}>
             <h2 className={styles.heading2}>{title}</h2>
-            <p className={styles.default}>
-              {duration}, {summary}
-            </p>
+            <h3 className={styles.heading3}>
+              {summary}
+              <small className={styles.default}> ({duration})</small>
+            </h3>
             <ul>
               {topics.map((item) => (
                 <li key={item}>{item}</li>
