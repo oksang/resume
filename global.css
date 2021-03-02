@@ -42,4 +42,23 @@ body {
     margin: 2cm;
     size: A4 portrait;
   }
+
+  /* 링크 처리 */
+  a:link,
+  a:visited,
+  a {
+    background: transparent;
+    color: #520;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+  }
+
+  a {
+    page-break-inside: avoid;
+  }
+
+  /* a[href^="http"]:after {
+    content: " < " attr(href) "> ";
+  } */
 }
