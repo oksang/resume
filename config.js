@@ -17,8 +17,8 @@ const experiences = [
     job: "웹개발자, 매니저",
     projects: [
       {
-        name: "개발실 프로젝트 관리",
-        summary: "사내 협업 프로세스 개선",
+        name: "업무 프로세스 개선",
+        summary: "새로운 도구 도입으로 사내 위키, 과업 관리를 통합",
         duration: "19년 9월 ~ 20년 3월",
         skills: ["notion", "slack", "jira", "confluence"],
         descriptions: [
@@ -60,6 +60,13 @@ const educations = [
     title: "코드숨",
     duration: "20년 6월 ~ 20년 9월",
     summary: "소프트웨어 개발의 지혜 - 리액트편",
+    descriptions: [
+      "테스트 주도 개발",
+      "Flux Architecture & Redux",
+      "Async Processing",
+      "Routing",
+      "CSS-in-JS",
+    ],
   },
 ];
 
