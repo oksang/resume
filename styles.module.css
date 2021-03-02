@@ -1,19 +1,15 @@
 .container {
-  font-family: Noto Sans KR, sans-serif;
-  box-sizing: border-box;
-  overflow-y: scroll;
-  color: hsla(0, 0%, 0%, 0.8);
-  width: 50%;
+  width: 210mm;
   margin: auto;
+  float: none;
 }
 
 .heading1 {
+  font-size: 24pt;
   border-left: 1rem solid #009688;
   padding-left: 0.5rem;
   padding-bottom: 0;
-  line-height: 1.05;
   margin: 2.2rem 0 1.8rem;
-  font-size: 2.5rem;
 }
 
 .heading2 {
