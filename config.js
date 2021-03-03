@@ -5,11 +5,53 @@ const pageTitle = "엄일경";
 const profile = {
   name: "엄일경",
   summary:
-    "스타트업 근무 경험이 있는 3년차 웹개발자. 주로 angularJS, ES5+, Bootstrap을 활용한 UI 작성, php api를 작성하는 작업을 했습니다. AWS, Git & Github 환경에 익숙하며 notion, slack, jira 같은 도구도 친숙합니다. 지금은 lighthouse를 이용한 최적화, 바람직한 마크업과 스타일링 기법, 엣지 케이스와 코너 케이스를 고려한 테스트 작성에 흥미가 있습니다.",
+    "스타트업 경험이 있는 3년차 웹개발자입니다. 비즈니스 가치를 창출하는 개발을 지향합니다. 주도적으로 업무를 진행할 수 있는 환경을 좋아합니다.",
   github: "https://github.com/oksang",
   blog: "https://oksang.dev",
   mail: "aumilkyeong@gmail.com",
   place: "경기도 성남시",
+};
+
+const skills = {
+  attitude: [
+    "최신 기술 적용보다는 상황에 적절한 기술이 우선한다고 믿습니다.",
+    "필요하면 낯선 분야도 적극적으로 학습하여 최적의 결과를 내도록 노력합니다.",
+    "프로세스 및 문화 개선에 적극적입니다.",
+    "뛰어난 동료들을 관찰하고 배우는 걸 좋아합니다.",
+  ],
+  communication: [
+    "솔직하고 직설적인 소통을 선호합니다.",
+    "직위나 포지션에 구애받지 않고 적극적으로 생각을 표현합니다.",
+    "합리적인 의사결정을 내리도록 노력합니다.",
+    "침묵 보다는 많은 의사 소통이 좋다고 믿습니다.",
+  ],
+  htmlAndCss: [
+    "시맨틱 마크업을 준수하기 위해 노력합니다.",
+    "Search Engine Optimization 경험이 있습니다.",
+    "다양한 플랫폼 및 브라우저를 지원할 수 있습니다.",
+    "CSS-in-JS, CSS module 방법론을 적용할 수 있습니다.",
+  ],
+  javascript: [
+    "ES2015 이후의 자바스크립트 문법에 익숙합니다.",
+    "jQuery 없이 DOM API를 다루는데 능숙합니다.",
+    "상황에 따라 적절한 자료구조를 선택합니다.",
+  ],
+  react: [
+    "거의 모든 컴포넌트를 함수로 만듭니다.",
+    "합리적인 방식으로 컴포넌트를 분리할 수 있습니다.",
+    "커스텀 훅으로 공통 비즈니스 로직을 모듈화 할 수 있습니다.",
+    "상황에 맞게 PureComponent와 React.memo를 사용합니다.",
+    "Redux, Redux Toolkit을 이용해 상태 관리를 할 수 있습니다.",
+  ],
+  tooling: [
+    "Git, Github을 능숙하게 사용합니다.",
+    "요구사항에 알맞는 프론트엔드 환경을 세팅할 수 있습니다. (babel, webpack, etc.)",
+    "테스트 환경을 세팅할 수 있으며 Github action과 통합할 수 있습니다.",
+  ],
+  etc: [
+    "Docker 이미지를 이용한 개발환경 공유 경험이 있습니다.",
+    "AWS EC2, S3, RDS 사용 경험이 있습니다.",
+  ],
 };
 
 const experiences = [
@@ -107,4 +149,4 @@ const educations = [
   },
 ];
 
-export { pageTitle, profile, experiences, educations, lastUpdated };
+export { pageTitle, profile, skills, experiences, educations, lastUpdated };
