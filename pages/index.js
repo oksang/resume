@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Header from "../components/Header";
+import Skill from "../components/Skill";
 import Experience from "../components/Experience";
 import Education from "../components/Educations";
 
@@ -9,6 +10,7 @@ import styles from "../styles.module.css";
 import {
   pageTitle,
   profile,
+  skillSet,
   experiences,
   educations,
   lastUpdated,
@@ -23,6 +25,7 @@ export default function Resume() {
       </Head>
       <article className={styles.container}>
         <Header profile={profile} updated={lastUpdated} />
+        <Skill skillSet={skillSet} />
         <Experience experiences={experiences} />
         <Education educations={educations} />
         <footer className={styles.default}>

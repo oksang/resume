@@ -5,22 +5,22 @@ const pageTitle = "엄일경";
 const profile = {
   name: "엄일경",
   summary:
-    "스타트업 경험이 있는 3년차 웹개발자입니다. 비즈니스 가치를 창출하는 개발을 지향합니다. 주도적으로 업무를 진행할 수 있는 환경을 좋아합니다.",
+    "프로덕트에 늘 진심인 3년차 웹개발자입니다. 비즈니스 가치를 창출하는 것을 가장 중요하게 생각합니다. 주도적인 업무 진행을 하면서 동료와 도움을 주고 받는 환경을 좋아합니다. A/B 테스트, TDD, 짝프로그래밍, 코드리뷰 문화가 있는 조직을 선호합니다.",
   github: "https://github.com/oksang",
   blog: "https://oksang.dev",
   mail: "aumilkyeong@gmail.com",
   place: "경기도 성남시",
 };
 
-const skills = {
+const skillSet = {
   attitude: [
-    "최신 기술 적용보다는 상황에 적절한 기술이 우선한다고 믿습니다.",
+    "상황에 적절한 기술이 우선이라고 믿습니다.",
     "필요하면 낯선 분야도 적극적으로 학습하여 최적의 결과를 내도록 노력합니다.",
     "프로세스 및 문화 개선에 적극적입니다.",
     "뛰어난 동료들을 관찰하고 배우는 걸 좋아합니다.",
   ],
   communication: [
-    "솔직하고 직설적인 소통을 선호합니다.",
+    "솔직하고 직설적이되 친절한 소통을 선호합니다.",
     "직위나 포지션에 구애받지 않고 적극적으로 생각을 표현합니다.",
     "합리적인 의사결정을 내리도록 노력합니다.",
     "침묵 보다는 많은 의사 소통이 좋다고 믿습니다.",
@@ -149,4 +149,4 @@ const educations = [
   },
 ];
 
-export { pageTitle, profile, skills, experiences, educations, lastUpdated };
+export { pageTitle, profile, skillSet, experiences, educations, lastUpdated };
