@@ -19,14 +19,14 @@ export default function Header({ profile, updated }) {
               <a href={github}>{github}</a>
             </td>
           </tr>
-          <tr>
+          {/* <tr>
             <td className={styles.default}>
               <strong>Blog</strong>
             </td>
             <td className={styles.default}>
               <a href={blog}>{blog}</a>
             </td>
-          </tr>
+          </tr> */}
           <tr>
             <td className={styles.default}>
               <strong>Mail</strong>
