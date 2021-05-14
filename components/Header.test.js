@@ -18,7 +18,7 @@ describe("Header", () => {
 
     expect(container).toHaveTextContent("김테스트");
     expect(container).toHaveTextContent("깃헙주소");
-    expect(container).toHaveTextContent("블로그주소");
+    // expect(container).toHaveTextContent("블로그주소");
     expect(container).toHaveTextContent("메일주소");
     expect(container).toHaveTextContent("거주지");
     expect(container).toHaveTextContent("9999.99.99");
